@@ -13,7 +13,7 @@
   <strong>An autonomous, governed ReAct (Reasoning and Acting) agent that verifies order states, evaluates category return policies, performs multimodal computer vision damage inspection, and triggers automated refund/escalation workflows.</strong>
 </p>
 
-[Quick Start](#-quick-start) • [Architecture](#-architecture) • [Features](#-key-features) • [Test Scenarios](#-test-scenarios) • [API Reference](#-api-reference)
+[Quick Start](#-quick-start) • [Showcase](#-application-showcase) • [Architecture](#-architecture) • [Features](#-key-features) • [Test Scenarios](#-test-scenarios) • [API Reference](#-api-reference)
 
 </div>
 
@@ -26,6 +26,47 @@ Traditional e-commerce return processes are plagued by two major flaws:
 2. **Naive AI Vulnerabilities:** Standard chatbot wrappers hallucinate, fail to verify order states, and are easily tricked into approving unauthorized refunds.
 
 **ReturnGuard** implements a production-grade **ReAct (Reasoning and Acting)** cognitive architecture with strict **AI governance guardrails** and a **Human-in-the-Loop (HITL)** fail-safe. It autonomously resolves legitimate low-risk returns in under 1 second while intercepting fraud (wardrobing, empty-box claims) and routing high-value edge cases to operations supervisors.
+
+---
+
+## 📸 Application Showcase
+
+<div align="center">
+  <h3>🧠 Autonomous ReAct Loop with Multimodal Computer Vision Inspection</h3>
+  <p>Real-time Thought-Action-Observation trace with automated defect damage verification.</p>
+  <img src="screenshots/01_multimodal_vision_react_trace.png" alt="ReturnGuard ReAct Agent & Vision AI" width="100%">
+</div>
+
+<br>
+
+<div align="center">
+  <table width="100%">
+    <tr>
+      <td width="50%" align="center">
+        <strong>📊 Executive ROI & Analytics Dashboard</strong><br>
+        <em>Real-time throughput, fraud prevention ($14.8k+), and latency KPIs</em><br><br>
+        <img src="screenshots/02_executive_analytics_dashboard.png" alt="Analytics Dashboard" width="100%">
+      </td>
+      <td width="50%" align="center">
+        <strong>👥 Human-in-the-Loop (HITL) Review Desk</strong><br>
+        <em>Operations console with photo evidence dossiers and 1-click controls</em><br><br>
+        <img src="screenshots/03_hitl_escalation_review_desk.png" alt="HITL Review Desk" width="100%">
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="center">
+        <strong>⚙️ Dynamic Return Policy Matrix</strong><br>
+        <em>Configurable return windows & category condition rules</em><br><br>
+        <img src="screenshots/04_dynamic_policy_engine.png" alt="Policy Matrix" width="100%">
+      </td>
+      <td width="50%" align="center">
+        <strong>🛡️ AI Governance & Compliance Ledger</strong><br>
+        <em>Immutable audit trail enforcing the hard $500 safety cap & citations</em><br><br>
+        <img src="screenshots/05_ai_governance_guardrails.png" alt="AI Governance Ledger" width="100%">
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
@@ -123,8 +164,8 @@ chmod +x start.sh
 #### 1. Backend Setup
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/return-guard.git
-cd return-guard
+git clone https://github.com/abhishek947kumar/Return-Guard.git
+cd Return-Guard
 
 # Install Python dependencies
 pip install -r requirements.txt
