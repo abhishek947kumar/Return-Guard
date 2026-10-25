@@ -13,7 +13,24 @@
   <strong>An autonomous, governed ReAct (Reasoning and Acting) agent that verifies order states, evaluates category return policies, performs multimodal computer vision damage inspection, and triggers automated refund/escalation workflows.</strong>
 </p>
 
-[Quick Start](#-quick-start) • [Showcase](#-application-showcase) • [Architecture](#-architecture) • [Features](#-key-features) • [Test Scenarios](#-test-scenarios) • [API Reference](#-api-reference)
+### 📸 Interface Walkthrough & Visual Proof
+
+| Multimodal Vision & ReAct Trace | Executive ROI Analytics |
+| :---: | :---: |
+| <img src="screenshots/01_multimodal_vision_react_trace.png" width="460" alt="Multimodal Vision & ReAct Trace"/> | <img src="screenshots/02_executive_analytics_dashboard.png" width="460" alt="Executive ROI Analytics"/> |
+| *Autonomous ReAct loop evaluating broken OLED TV panel with multimodal defect analysis* | *Operational dashboard displaying 81.4% automation throughput and $14,850+ fraud savings* |
+
+| HITL Escalation Review Desk | Dynamic Policy Matrix |
+| :---: | :---: |
+| <img src="screenshots/03_hitl_escalation_review_desk.png" width="460" alt="HITL Review Desk"/> | <img src="screenshots/04_dynamic_policy_engine.png" width="460" alt="Dynamic Policy Engine"/> |
+| *Tier-2 supervisor console with real-time AI dossiers, anomaly flags, and 1-click overrides* | *Category-specific warranty rules, condition checks, and automated fee deduction matrices* |
+
+| AI Governance & Safety Guardrails | Instant Auto-Refund Flow |
+| :---: | :---: |
+| <img src="screenshots/05_ai_governance_guardrails.png" width="460" alt="AI Governance Guardrails"/> | <img src="screenshots/01_instant_refund_airpods.png" width="460" alt="Instant Auto-Refund"/> |
+| *Hard $500 autonomous limit, anti-hallucination grounding, and deterministic tool audit log* | *Sub-850ms deterministic refund execution for legitimate low-risk customer claims* |
+
+[Walkthrough](#-interface-walkthrough--visual-proof) • [Quick Start](#-quick-start) • [Showcase](#-application-showcase) • [Architecture](#-architecture) • [Features](#-key-features) • [Test Scenarios](#-test-scenarios) • [API Reference](#-api-reference)
 
 </div>
 
